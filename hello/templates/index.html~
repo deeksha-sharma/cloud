@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Welcome to Auction King</h1>
+    <p>This is a platform where people can auction theie products and get good returns.</p>
+    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-python"><span class="glyphicon glyphicon-flash"></span> Getting Started</a>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/python-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+  </div>
+</div>
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+    Please login to continue. <a href="https://devcenter.heroku.com/articles/getting-started-with-python" class="alert-link">Getting Started</a>
+  </div>
+  <hr>
+  <div class="row">
+</div>
+{% endblock %}
